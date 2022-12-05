@@ -28,12 +28,8 @@ log_probs, fitted_model, posteriors = test_hmm.fit(data, method="em")
 # Installation for Development
 
 ```bash
-# use your favorite venv system
-conda env create -n ssm_jax python=3.9
-conda activate ssm_jax
-
-# in repo root directory...
-pip install -r requirements.txt
+conda env create --name ilfd --file=ILfD_env.yml
+conda activate ilfd
 ```
 
 # Project Structure
